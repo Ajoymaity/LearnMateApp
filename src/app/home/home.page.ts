@@ -5,6 +5,7 @@ import { BarcodeScanner } from '@awesome-cordova-plugins/barcode-scanner/ngx';
 import { environment } from 'src/environments/environment';
 import { Response } from '../response';
 import { MenuController } from '@ionic/angular';
+import { MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
