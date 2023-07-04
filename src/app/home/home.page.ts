@@ -2,9 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Component, NgZone } from '@angular/core';
 import { NavigationExtras, Router } from '@angular/router';
 import { BarcodeScanner } from '@awesome-cordova-plugins/barcode-scanner/ngx';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../../src/environments/environment';
 import { Response } from '../response';
-import { MenuController } from '@ionic/angular';
 import { MenuController } from '@ionic/angular';
 
 @Component({
